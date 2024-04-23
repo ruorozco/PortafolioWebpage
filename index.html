@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #2c81ea;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #2100f8;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        h1, h2, {
+            margin: 0;
+            size: 15;
+        }
+        h3{
+            margin: 1;
+            size: 12;
+        }
+        .skills, .projects {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .left {
+            text-align: left; /* Align text to the left */
+        }
+        .right {
+            text-align: right; /* Align text to the right */
+        }
+        .board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .cell {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #333;
+            font-size: 2em;
+            text-align: center;
+            line-height: 100px;
+            cursor: pointer;
+        }
+        .cell:hover {
+            background-color: #f0f0f0;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+        .button {
+            margin-top: 20px;
+            font-size: 1em;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #218838;
+        }      
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#games">Sección de Juegos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Roberto U Orozco</h1>
+        <p>915 346 2911 | rob.orozco.cs@gmail.com | github.com/ruorozco</p>
+    </header>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <h3>Education</h3>
+        <p>
+            <strong> University of Texas at El Paso El Paso,              Tx May, 2023</strong><br>
+            Bachelor of Engineering in Computer Science </p>
+         <p><strong> Paso Community College El Paso, Tx  May, 2019</strong><br>
+            Associate of Arts in Computer Science</p>
+        <h3>EXPERIENCE</h3>
+        <div class="row">
+            <div class="left"><strong>Fajas Rin</strong></div> <!-- Left-aligned text -->
+            <div class="right"><strong>Juarez, Mx</strong> </div> <!-- Right-aligned text -->
+        </div>
+        <div class="row">
+            <div class="left"><strong>Owner</strong></div> <!-- Left-aligned text -->
+            <div class="right"><strong>September 2017 - Present</strong> </div> <!-- Right-aligned text -->
+        </div>
+         <p>   
+        • Lead a dynamic team, overseeing 3 employees one dedicated to social media management and 
+        two focused on sales operations.<br>
+        • Establish and maintain organizational efficiency by creating detailed weekly and monthly reports.<br>
+        • Proactively design campaigns and strategies to address and resolve the company's weaknesses, 
+        contributing to overall growth and success.<br>
+        • I maintain regular contact with our international suppliers, constantly seeking opportunities to 
+        enhance and negotiate better prices for our products.<br>
+        </p>
+        <div class="row">
+            <div class="left"><strong>Utep History Department</strong></div> <!-- Left-aligned text -->
+            <div class="right"><strong>El Paso, Texas</strong> </div> <!-- Right-aligned text -->
+        </div>
+        <div class="row">
+            <div class="left"><strong>Administrative Assistant</strong></div> <!-- Left-aligned text -->
+            <div class="right"><strong>October 2022- Augst, 2023</strong> </div> <!-- Right-aligned text -->
+        </div>
+        <p>
+            • Serve as the first point of contact for the History Department, answering phone calls, and 
+            addressing inquiries from students, professors, and visitors promptly and professionally.<br>
+            • Maintain confidentiality when handling sensitive documents, including exams, quizzes, and 
+            research materials from professors, ensuring the security and integrity of these materials.<br>
+            • Oversee the receipt and distribution of departmental mail, ensuring timely and accurate delivery 
+            to faculty and staff members.<br>
+            • Collaborate with Utep bookstore to streamline the p</p>
+    </section>
+    <div class="row">
+        <div class="left"><strong>Technody</strong></div> <!-- Left-aligned text -->
+        <div class="right"><strong>Ciudad Juarez, Mx</strong> </div> <!-- Right-aligned text -->
+    </div>
+    <div class="row">
+        <div class="left"><strong>IT Support Specialist</strong></div> <!-- Left-aligned text -->
+        <div class="right"><strong>February 2021- June 2022</strong> </div> <!-- Right-aligned text -->
+    </div>
+    <p>
+        • Managed computer updates and facilitated the procurement and installation of essential software
+        programs.<br>
+        • Performed hardware upgrades such as RAM and SSD installations to enhance the performance of
+        clients' laptops.<br>
+        • Provided technical support for the installation and setup of projectors, screens, audio systems,
+        and cameras in manufacturing facilities and office environments.<br>
+        • Integrated audiovisual systems with existing web networks and computer systems to ensure
+        optimal connectivity and functionality.<br>
+        • Maintained proactive communication with clients to understand their needs and concerns, and
+        offered tailored recommendations.<br>
+        • Prepared detailed reports on client needs and proposed solution budgets.<br>
+    </p>
+    <div class="row">
+        <div class="left"><strong>Barnes and Noble Collage</strong></div> <!-- Left-aligned text -->
+        <div class="right"><strong>El Paso, Texas</strong> </div> <!-- Right-aligned text -->
+    </div>
+    <div class="row">
+        <div class="left"><strong>Bookseller/Cashier</strong></div> <!-- Left-aligned text -->
+        <div class="right"><strong>September 2017 - January, 2020</strong> </div> <!-- Right-aligned text -->
+    </div>
+    <p>
+        • Efficiently managed and balanced responsibilities as a bookseller and cashier, demonstrating
+        strong multitasking abilities.<br>
+        • Processed customer payments accurately and efficiently, including cash, credit cards, and
+        electronic payments, while providing exceptional customer service.<br>
+        • Assisted students in locating the correct textbooks for their classes, providing expert guidance on
+        book selections and alternatives.<br>
+        • Utilized inventory management systems to update and maintain the book inventory, ensuring that
+        stock levels were accurate and up-to-date.
+    </p>
+
+    
+    <section id="portfolio">
+        <h2>Portafolio</h2>
+        <ul class="projects">
+            <li><strong>-Final Proyect: CANBUS Visualizer</strong> </li>
+            <p>GitHub link: <a href="https://github.com/Team-9-Syntax-Error/CAN_BUS" target="_blank">CANBUS Visualizer</a></p>
+                <p><strong>Introduction:</strong><br>
+                    The Controller Area Network (CAN) is a widely used protocol in the automotive industry for internal communication
+                     between various components of a vehicle. <br>
+                     In this project, we explore the possibility of controlling key vehicle functions through the manipulation of JSON packets on the CAN bus.<br>
+
+                    <strong> Objective:</strong><br>
+                    The objective of this project is to develop a system that allows for remote control of various vehicle functions, <br>
+                    such as turning lights on and off, activating windshield wipers, steering wheel movement, and starting or stopping the engine. 
+                    <br>All this is achieved through sending and receiving CAN messages containing commands in JSON format.
+                </p>
+            <li><strong>SQL Project:</strong> </li>
+            <p>GitHub link: <a href="https://github.com/ruorozco/SQL-Projects/tree/main" target="_blank">Covid SQL</a></p>
+                <p>
+                    <strong>Introduction:</strong><br>
+                    In this project, we use the SQL language to analyze data on the growth of COVID-19 cases in different countries.<br> 
+                    The information is sourced from a reputable source, the Our World in Data website, which provides updated and verified data on the pandemic.<br> 
+                    With SQL, we can perform detailed queries and analyses to understand trends and the impact of COVID-19 over time in various regions. <br> 
+                    The objective is to gain valuable insights that can help better understand the evolution of the pandemic and its global effects.<br> 
+                    <strong> Objective:</strong><br>
+The purpose of this project is to analyze the growth of COVID-19 cases in various countries over time. By using SQL to query and manipulate data, we aim to identify trends, patterns, and correlations to better understand the evolution of the pandemic in different regions.
+                </p>
+        </ul>
+    </section>
+    
+    <section id="games">
+        <h2>Relax Section</h2>
+        <p></p>
+        <h1>Tic-Tac-Toe</h1>
+    
+    <div class="board">
+        <!-- Celdas del tablero de Tic-Tac-Toe -->
+        <div class="cell" id="0"></div>
+        <div class="cell" id="1"></div>
+        <div class="cell" id="2"></div>
+        <div class="cell" id="3"></div>
+        <div class="cell" id="4"></div>
+        <div class="cell" id="5"></div>
+        <div class="cell" id="6"></div>
+        <div class="cell" id="7"></div>
+        <div class="cell" id="8"></div>
+    </div>
+    
+    <div class="result" id="result"></div>
+    
+    <button class="button" onclick="restartGame()">Volver a jugar</button>
+    
+    <script>
+        // Variables globales
+        let board = ["", "", "", "", "", "", "", "", ""];
+        let player = "X"; // Jugador
+        let computer = "O"; // Computadora
+        let gameOver = false;
+
+        // Verifica si hay un ganador
+        function checkWin(board, mark) {
+            const winPatterns = [
+                [0, 1, 2], 
+                [3, 4, 5], 
+                [6, 7, 8], 
+                [0, 3, 6], 
+                [1, 4, 7], 
+                [2, 5, 8], 
+                [0, 4, 8], 
+                [2, 4, 6]
+            ];
+            
+            return winPatterns.some(pattern => 
+                pattern.every(index => board[index] === mark)
+            );
+        }
+
+        // Verifica si el tablero está lleno
+        function isFull(board) {
+            return board.every(cell => cell !== "");
+        }
+
+        // La computadora realiza un movimiento aleatorio
+        function computerMove() {
+            if (gameOver) return;
+
+            let availableMoves = board.map((val, idx) => val === "" ? idx : null).filter(val => val !== null);
+            
+            if (availableMoves.length === 0) return;
+
+            let randomMove = availableMoves[Math.floor(Math.random() * availableMoves.length)];
+            
+            board[randomMove] = computer;
+            document.getElementById(randomMove).textContent = computer;
+
+            if (checkWin(board, computer)) {
+                gameOver = true;
+                document.getElementById("result").textContent = "¡La computadora gana!";
+            } else if (isFull(board)) {
+                gameOver = true;
+                document.getElementById("result").textContent = "¡Es un empate!";
+            }
+        }
+
+        // Controlador de eventos para el turno del jugador
+        function playerMove(event) {
+            let cell = event.target;
+
+            if (gameOver || cell.textContent !== "") return;
+
+            board[parseInt(cell.id)] = player;
+            cell.textContent = player;
+
+            if (checkWin(board, player)) {
+                gameOver = true;
+                document.getElementById("result").textContent = "¡Tú ganas!";
+            } else if (isFull(board)) {
+                gameOver = true;
+                document.get.getTextById("result").textContent = "¡Es un empate!";
+            } else {
+                computerMove(); // Turno de la computadora
+            }
+        }
+
+        // Reinicia el juego
+        function restartGame() {
+            board = ["", "", "", "", "", "", "", "", ""];
+            gameOver = false;
+            document.getElementById("result").textContent = "";
+
+            document.querySelectorAll(".cell").forEach(cell => cell.textContent = "");
+        }
+
+        // Agregar eventos a cada celda
+        document.querySelectorAll(".cell").forEach(cell => cell.addEventListener("click", playerMove));
+    </script>
+    </section>
+    
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme por correo electrónico a: <a href="mailto:tu_correo@example.com">rob.orozco.cs@gmail.com</a></p>
+        <p>O en GitHub: <a href="https://github.com/ruorozco" target="_blank">/ruorozco</a></p>
+    </section>
+    
+    <footer>
+        <p>© 2024 Roberto U Orozco Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
